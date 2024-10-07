@@ -20,6 +20,7 @@ const useFetch = (url, options) => {
       throw err;
     } finally {
       setLoading(false);
+      console.log("error");
     }
   };
 
